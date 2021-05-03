@@ -40,6 +40,31 @@ div#primary{
 		text-decoration:none;
 		color:#16A085;
 	}
+div#tablebox{
+	display:block;
+	width:100%;
+	padding: 1% 10% 1% 10%;
+}
+
+div#kapcsolat{
+	display:table-cell;
+	padding-left:30px;	
+	margin:40px;
+	
+	}
+div#messagesent{
+padding:50px;
+display:table-cell;
+
+margin:40px;
+}	
+	
+	
+div#upload{
+	margin:auto;
+	padding-bottom:30px;
+	padding-left:30px;
+}
 div#primary p{
 	font-size:19px;
 	line-height: 150%;
@@ -138,7 +163,7 @@ ul.jobboldal a:hover{
 
 
 div#menu{
-	width:90%;
+	width:100%;
 	margin:auto;
 	overflow:hidden;
 }
@@ -218,7 +243,9 @@ div#content img{
 
 footer {
     background-color: #F8F8F8;
-    margin: 10px;
+    margin: 50px auto 10px auto;
     padding: 5px 20px;
+	width:88%;
+	
     
 }
